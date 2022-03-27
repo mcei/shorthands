@@ -28,3 +28,9 @@ def fail(msg=None):
     """Fail with the message
     """
     raise exc(msg)
+
+
+# access classic names
+assert_true = ok_
+assert_false = not_
+assert_equals = eq_
